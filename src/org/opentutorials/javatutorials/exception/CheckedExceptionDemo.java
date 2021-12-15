@@ -10,6 +10,7 @@ public class CheckedExceptionDemo {
 				e.printStackTrace();
 			}
 			try {
+//				String input - null;
 				input = bReader.readLine();
 			} catch (IOException e) {
 				e.printStackTrace();
